@@ -2,11 +2,11 @@
 Pete Lee's revamped portfolio
 
 To get the project up and running:
-`npm install`
-`grunt handlebars`
-`python -m SimpleHTTPServer 8000`
+* `npm install`
+* `grunt handlebars`
+* `python -m SimpleHTTPServer 8000`
 
-and checkout `localhost:8000`
+Then checkout `localhost:8000` in yr browser
 
 ## Notes
 
