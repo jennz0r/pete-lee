@@ -10,8 +10,9 @@ Then checkout `localhost:8000` in yr browser
 
 ## Notes
 
-https://gruntjs.com/getting-started
-https://github.com/gruntjs/grunt-contrib-handlebars
-http://danburzo.ro/grunt/chapters/handlebars/
+* https://gruntjs.com/getting-started
+* https://github.com/gruntjs/grunt-contrib-handlebars
+* http://danburzo.ro/grunt/chapters/handlebars/
+
 
 #### READ THE DOCS
