@@ -1,4 +1,4 @@
-# pete-lee
+# OH PETE LEE
 Pete Lee's revamped portfolio
 
 To get the project up and running:
