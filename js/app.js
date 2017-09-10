@@ -218,12 +218,6 @@ $(document).ready(function() {
   if (location.pathname == '/contact/') {
     $('body').css('background-image', 'url(/img/pete01.jpg)');
   }
-  else if (location.pathname == '/photography/') {
-    $('body').css('background-color', '#000');
-  }
-  else {
-    $('body').css('background-color', '#222');
-  }
 
   $('.auto-slicky').slick({
     arrows: true,

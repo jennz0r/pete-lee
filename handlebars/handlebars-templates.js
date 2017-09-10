@@ -3,9 +3,9 @@ this["JST"] = this["JST"] || {};
 Handlebars.registerPartial("nav", Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "<div class=\"fixed\">\n  <nav class=\"top-bar\" data-topbar role=\"navigation\">\n    <ul class=\"title-area\">\n      <li class=\"name\">\n        <img src=\"/img/avatar.png\" style=\"display:inline; height:100%; vertical-align:top;\">\n        <h1 style=\"display:inline;\"><a href=\""
+  return "<div class=\"fixed\">\n  <nav class=\"top-bar\" data-topbar role=\"navigation\">\n    <ul class=\"title-area\">\n      <li class=\"name\">\n        <a href=\""
     + alias4(((helper = (helper = helpers.home_url || (depth0 != null ? depth0.home_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"home_url","hash":{},"data":data}) : helper)))
-    + "\" style=\"display:inline;\">ohpetelee</a></h1>\n      </li>\n       <!-- Remove the class \"menu-icon\" to get rid of menu icon. Take out \"Menu\" to just have icon alone -->\n      <li class=\"toggle-topbar menu-icon\"><a href=\"#\"><span></span></a></li>\n    </ul>\n\n    <section class=\"top-bar-section\">\n      <!-- Right Nav Section -->\n      <ul class=\"right\">\n        <li><a href=\""
+    + "\" style=\"display:inline;\"><img src=\"/img/avatar.png\"></a>\n      </li>\n       <!-- Remove the class \"menu-icon\" to get rid of menu icon. Take out \"Menu\" to just have icon alone -->\n      <li class=\"toggle-topbar menu-icon\"><a href=\"#\"><span></span></a></li>\n    </ul>\n\n    <section class=\"top-bar-section\">\n      <!-- Right Nav Section -->\n      <ul class=\"right\">\n        <li><a href=\""
     + alias4(((helper = (helper = helpers.music_url || (depth0 != null ? depth0.music_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"music_url","hash":{},"data":data}) : helper)))
     + "\">Music</a></li>\n        <li><a href=\""
     + alias4(((helper = (helper = helpers.branded_url || (depth0 != null ? depth0.branded_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"branded_url","hash":{},"data":data}) : helper)))
@@ -22,7 +22,7 @@ this["JST"]["handlebars/contact.hbs"] = Handlebars.template({"compiler":[7,">= 4
     var stack1, helper;
 
   return ((stack1 = container.invokePartial(partials.nav,depth0,{"name":"nav","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + "\n<div class=\"row  mv  ph\">\n  <div class=\"small-12  medium-6  large-5  small-centered  medium-uncentered  columns\">\n    <h1 class=\"title\">"
+    + "\n<ul class=\"cb-slideshow\">\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n</ul>\n\n<div class=\"row  mv  ph\">\n  <div class=\"small-12  medium-6  large-5  small-centered  medium-uncentered  columns\">\n    <h1 class=\"title\">"
     + container.escapeExpression(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0 != null ? depth0 : (container.nullContext || {}),{"name":"title","hash":{},"data":data}) : helper)))
     + "</h1>\n    <div class=\"bio  mv+\">\n      <h6 class=\"header-custom\">Production Blog</h6>\n      <a href=\"http://enterthehero.com/\">Enter the Hero</a>\n      <h6 class=\"header-custom\">Production Company</h6>\n      <a href=\"http://www.wearescandinavia.com/\">Scandinavia</a><br><br>\n      <em><a href=\"mailto:pete@ohpetelee.com\">pete@ohpetelee.com</a></em><span> | <em>617.784.1886</em></span>\n    </div>\n  </div>\n</div>";
 },"usePartial":true,"useData":true});
@@ -30,8 +30,7 @@ this["JST"]["handlebars/contact.hbs"] = Handlebars.template({"compiler":[7,">= 4
 this["JST"]["handlebars/index.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return ((stack1 = container.invokePartial(partials.nav,depth0,{"name":"nav","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + "\n<ul class=\"cb-slideshow\">\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n  <li><span></span></li>\n</ul>";
+  return ((stack1 = container.invokePartial(partials.nav,depth0,{"name":"nav","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "");
 },"usePartial":true,"useData":true});
 
 this["JST"]["handlebars/photography.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
