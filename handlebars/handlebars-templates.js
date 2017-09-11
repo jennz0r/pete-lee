@@ -3,19 +3,19 @@ this["JST"] = this["JST"] || {};
 Handlebars.registerPartial("nav", Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "<div class=\"fixed\">\n  <nav class=\"top-bar\" data-topbar role=\"navigation\">\n    <ul class=\"title-area\">\n      <li class=\"name\">\n        <a href=\""
+  return "<header class=\"fixed\">\n  <nav class=\"nav-bar\">\n      <div class=\"nav-links\"><a href=\""
     + alias4(((helper = (helper = helpers.home_url || (depth0 != null ? depth0.home_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"home_url","hash":{},"data":data}) : helper)))
-    + "\" style=\"display:inline;\"><img src=\"/img/avatar.png\"></a>\n      </li>\n       <!-- Remove the class \"menu-icon\" to get rid of menu icon. Take out \"Menu\" to just have icon alone -->\n      <li class=\"toggle-topbar menu-icon\"><a href=\"#\"><span></span></a></li>\n    </ul>\n\n    <section class=\"top-bar-section\">\n      <!-- Right Nav Section -->\n      <ul class=\"right\">\n        <li><a href=\""
+    + "\" style=\"display:inline;\"><img src=\"/img/avatar.png\" class=\"home__icon\"></a></div>\n      <div class=\"nav-links\"><a href=\""
     + alias4(((helper = (helper = helpers.music_url || (depth0 != null ? depth0.music_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"music_url","hash":{},"data":data}) : helper)))
-    + "\">Music</a></li>\n        <li><a href=\""
+    + "\">Music</a></div>\n      <div class=\"nav-links\"><a href=\""
     + alias4(((helper = (helper = helpers.branded_url || (depth0 != null ? depth0.branded_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"branded_url","hash":{},"data":data}) : helper)))
-    + "\">Branded</a></li>\n        <li><a href=\""
+    + "\">Branded</a></div>\n      <div class=\"nav-links\"><a href=\""
     + alias4(((helper = (helper = helpers.narrative_url || (depth0 != null ? depth0.narrative_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"narrative_url","hash":{},"data":data}) : helper)))
-    + "\">Narrative</a></li>\n        <li><a href=\""
+    + "\">Narrative</a></div>\n      <div class=\"nav-links\"><a href=\""
     + alias4(((helper = (helper = helpers.photography_url || (depth0 != null ? depth0.photography_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"photography_url","hash":{},"data":data}) : helper)))
-    + "\">Photography</a></li>\n        <li><a href=\""
+    + "\">Photography</a></div>\n      <div class=\"nav-links\"><a href=\""
     + alias4(((helper = (helper = helpers.contact_url || (depth0 != null ? depth0.contact_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contact_url","hash":{},"data":data}) : helper)))
-    + "\">Contact</a></li>\n      </ul>\n    </section>\n  </nav>\n</div>";
+    + "\">Contact</a></div>\n  </nav>\n</header>";
 },"useData":true}));
 
 this["JST"]["handlebars/contact.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
