@@ -1,14 +1,24 @@
-$nav-height: 100px;
+$nav-height: 90px;
 
 body {
   margin: 0;
-  font-family: sans-serif;
-  background-color: #f8f8f8;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
   background: no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+a {
+  color: #D34518;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .fixed {
@@ -22,8 +32,11 @@ body {
 .nav-bar {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
+  padding-right: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 .nav-links {
@@ -31,11 +44,12 @@ body {
 }
 
 .home__icon {
-  height: 100%;
+  height: $nav-height;
 }
 
 .main {
   margin-top: $nav-height;
+  background-color: #f9f9f9;
 }
 
 div.preloaded-images {
@@ -262,7 +276,6 @@ div.preloaded-images {
 
 .bio {
   padding: 1.2em;
-  background-color: rgba(22,22,22,0.6);
 }
 
 .overlay {
