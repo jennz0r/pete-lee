@@ -3,4 +3,4 @@
 package-lock.json
 node_modules/
 .sass-cache/
-app.css.map
+css/app.css.map
