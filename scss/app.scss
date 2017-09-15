@@ -2,7 +2,7 @@ $nav-height: 90px;
 
 body {
   margin: 0;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'oswald', sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
   background: no-repeat center center fixed; 
@@ -12,6 +12,15 @@ body {
   background-size: cover;
 }
 
+header {
+  background-color: #fff;
+}
+
+h1 {
+  font-family: 'Contrail One', 'Carter One', cursive;
+  text-align: center;
+}
+
 a {
   color: #D34518;
   text-decoration: none;
@@ -19,6 +28,21 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+
+.reel {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.tagline {
+  padding-top: 60px;
+}
+
+.quote {
+  font-size: 4rem;
 }
 
 .fixed {
@@ -40,7 +64,7 @@ a {
 }
 
 .nav-links {
-
+  font-family: 'Contrail One', 'Carter One', cursive;
 }
 
 .home__icon {

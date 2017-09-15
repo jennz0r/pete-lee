@@ -15,7 +15,7 @@ Handlebars.registerPartial("nav", Handlebars.template({"compiler":[7,">= 4.0.0"]
     + alias4(((helper = (helper = helpers.photography_url || (depth0 != null ? depth0.photography_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"photography_url","hash":{},"data":data}) : helper)))
     + "\">Photography</a></div>\n      <div class=\"nav-links\"><a href=\""
     + alias4(((helper = (helper = helpers.contact_url || (depth0 != null ? depth0.contact_url : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contact_url","hash":{},"data":data}) : helper)))
-    + "\">Contact</a></div>\n  </nav>\n</header>";
+    + "\">Contact</a></div>\n  </nav>\n</header>\n";
 },"useData":true}));
 
 this["JST"]["handlebars/contact.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
